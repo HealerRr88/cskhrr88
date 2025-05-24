@@ -1,0 +1,574 @@
+*,
+body {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.4;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.img-phone{
+    filter: invert(1)
+}
+body {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.wp-banner {
+    /* background-image: url(./../images/bg-hi88.jpg); */
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.dp-pc {
+    display: block !important;
+}
+
+.dp-mb {
+    display: none !important;
+}
+
+.wp-site {
+    /* height: 100vh; */
+    position: relative;
+}
+
+.container {
+    max-width: 1300px !important;
+    width: 100%;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* Logo */
+
+.logo-company {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    position: relative;
+    z-index: 1;
+    -webkit-animation: drift 2s infinite alternate;
+    animation: drift 2s infinite alternate;
+}
+
+.logo-company img {
+    width: 100%;
+    height: auto;
+}
+
+/* Redirect Link */
+.bottom-redirect {
+    background-image: url(./../images/bg-layout.png);
+    background-size: 100% 100%;
+
+    padding: 0px 15px;
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+.wp-box-center {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.redirect-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 15px;
+    gap: 19px;
+    position: relative;
+    margin-top: -15px;
+    z-index: 2;
+}
+
+.item-link {
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wp-item-link {
+    background-image: linear-gradient(180deg,
+            hsl(193deg 100% 98%) 0%,
+            hsl(194deg 83% 95%) 11%,
+            hsl(194deg 81% 91%) 22%,
+            hsl(195deg 81% 87%) 33%,
+            hsl(195deg 81% 84%) 44%,
+            hsl(195deg 82% 80%) 56%,
+            hsl(195deg 83% 76%) 67%,
+            hsl(195deg 84% 72%) 78%,
+            hsl(195deg 85% 67%) 89%,
+            hsl(195deg 87% 62%) 100%);
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.icon-link {
+    content: "";
+    background-image: url(./../images/icon-link1.png);
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 35px;
+    width: 80%;
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    z-index: 99;
+}
+
+.icon-link.btn-link02 {
+    background-image: url(./../images/icon-link2.png);
+}
+
+.icon-link.btn-link03 {
+    background-image: url(./../images/icon-link3.png);
+}
+
+.icon-link.btn-link04 {
+    background-image: url(./../images/icon-link4.png);
+}
+
+.icon-link.btn-link05 {
+    background-image: url(./../images/icon-link5.png);
+}
+
+.icon-link.btn-link06 {
+    background-image: url(./../images/icon-link6.png);
+}
+
+.item-link .title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+    border-bottom: 1px solid #D9D9D9;
+    width: 100%;
+}
+
+.item-link .speed {
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #585858;
+    border-top: 2px dotted #1293CA;
+    border-bottom: 2px dotted #1293CA;
+    width: 100%;
+    font-weight: 700;
+}
+
+.item-link .btn-redirect {
+    padding: 2px 0px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.item-link .speed {
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.item-link .btn-redirect:hover {
+    text-decoration: none !important;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.element-hover:hover {
+    text-decoration: none !important;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.item-link .title-top {
+    padding: 5px;
+    font-size: 18px;
+    color: #FF9500;
+}
+
+.item-link .btn-link {
+    background-image: url(./../images/btn-redirect-link.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px 10px 2px;
+    box-sizing: border-box;
+    color: #000;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+.nhapnhay2 {
+    font-weight: 700;
+    animation: my02 1s infinite;
+    text-align: center
+}
+
+@keyframes my02 {
+    0% {
+        color: #000;
+    }
+
+    50% {
+        color: #38497a;
+    }
+
+    to {
+        color: #000;
+    }
+}
+
+/* End Redirect Link */
+
+/* Banner VIP */
+
+.banner-vip {
+    width: 94%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.banner-vip img {
+    width: 100%;
+    height: auto;
+}
+
+/* End Banner VIP */
+
+@media screen and (max-width: 1300px) {
+
+    .item-link .title {
+        font-size: 18px;
+    }
+
+    .item-link .speed,
+    .item-link .title-top {
+        font-size: 16px;
+    }
+
+    .item-link .btn-link {
+        font-size: 16px;
+    }
+
+    .wp-item-link {
+        padding: 10px 15px;
+    }
+
+    /* Layout */
+    .wp-box-center {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wp-box-center {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .logo-company {
+        max-width: 200px;
+    }
+
+    .ds-image {
+        max-width: 240px;
+        margin-bottom: -45px;
+    }
+
+    .redirect-links {
+        gap: 10px;
+    }
+
+    .download-product {
+        padding: 14px 100px;
+        margin-top: 10px;
+    }
+
+    .product-item .product-title {
+        font-size: 14px;
+    }
+
+    .product-item .thumb-nail {
+        height: 65px;
+    }
+
+    .product-item {
+        height: 65px;
+    }
+
+    .wp-item-link {
+        padding: 5px 8px;
+    }
+
+    .icon-link {
+        min-height: 35px;
+        top: 6px;
+        left: 0px;
+    }
+
+    .list-btn-function {
+        gap: 10px;
+        padding: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 990px) {
+    .item-link .title {
+        font-size: 15px;
+    }
+
+    .item-link .btn-link {
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+
+    .download-product {
+        padding: 14px 45px;
+    }
+
+    .bottom-redirect {
+        padding: 0px 0px; 
+    }
+
+    .banner-vip {
+        width: 90%;
+    }
+
+    .text-sp {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 500px) {
+    .btn-function-sp {
+        height: 135px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    * {
+        overflow: unset;
+    }
+
+    body {
+        overflow: auto;
+        height: auto;
+    }
+
+    .row>* {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .wp-banner {
+        background-image: url(./../images/cskh_mobile.jpg);
+        background-position: center center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        min-height: 100vh;
+        padding-bottom: 15px;
+    }
+
+    .bottom-redirect {
+        background-image: url(./../images/bg-layout-mb.png);
+        position: relative;
+    }
+
+    .container {
+        padding: 0px 7px;
+    }
+
+    .dp-pc {
+        display: none !important;
+    }
+
+    .dp-mb {
+        display: block !important;
+    }
+
+    .wp-site {
+        background-image: unset;
+        height: 100%;
+    }
+
+    @-webkit-keyframes drift {
+        to {
+            -webkit-transform: translateY(-10%);
+            transform: translateY(-10%)
+        }
+    }
+
+    @keyframes drift {
+        to {
+            -webkit-transform: translateY(-10%);
+            transform: translateY(-10%)
+        }
+    }
+
+    .image-title {
+        max-width: 90%;
+    }
+
+    .bottom-redirect {
+        padding: 0px 0px 20px;
+        bottom: 3%;
+    }
+
+    .redirect-links {
+        gap: 10px;
+        display: flex;
+        padding: 0px;
+        flex-wrap: wrap;
+        width: calc(100% - 0px);
+        margin: auto;
+    }
+
+    .list-btn-right {
+        margin-top: 20px;
+        gap: 16px;
+    }
+
+    .list-btn-function {
+        gap: 8px;
+    }
+
+    .item-link {
+        width: 31%;
+        flex-direction: unset;
+        align-items: center;
+        padding: 0px;
+        justify-content: space-between;
+        padding: 5px 0px;
+        border-radius: 0px;
+        position: relative;
+    }
+
+    .item-link:last-child::after {
+        content: unset;
+    }
+
+    .item-link .title,
+    .item-link .speed {
+        border-bottom: unset;
+        width: auto;
+        width: 100%;
+        font-size: 3vw;
+        position: relative;
+    }
+
+    .item-link .speed {
+        text-align: center;
+        border-bottom: 2px dotted #1293CA;
+        margin-top: 30px;
+    }
+
+    .item-link .title {
+        text-align: center;
+    }
+
+    .item-link .title-top {
+        margin-bottom: 0px;
+        font-size: 3vw;
+        width: 30%;
+        position: relative;
+    }
+
+    .item-link .btn-link {
+        font-size: 3vw;
+        padding: 5px 10px;
+        border-radius: 15px;
+    }
+
+    .item-link .btn-redirect {
+        width: auto;
+    }
+
+    .text-sp {
+        font-size: 3vw;
+        padding-top: 2px;
+    }
+
+    .icon-link {
+        min-height: 33px;
+        top: 0px;
+        left: 0px;
+    }
+
+    .tt-top {
+        width: 70%;
+        margin: auto;
+        margin-bottom: -19px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .wp-box-center {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .banner-vip {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bottom-redirect {
+        padding: 0px 0px 15px
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .item-link .btn-link,
+    .item-link .title-top,
+    .item-link .speed,
+    .item-link .title {
+        font-size: 3.2vw !important;
+    }
+
+    .item-link .btn-link {
+        padding: 5px 7px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .item-link {
+        width: 30%;
+    }
+}
+
+.btn-function-sp {
+    
+        background: linear-gradient(180deg, #019efb, #0176dc);
+       
+}
